@@ -1,0 +1,114 @@
+:root {
+    --header-background: #23232e;
+    --text-color: #464b4f;
+    --all-works-bg: #7b77c9;
+    --landing-page-bg: rgb(161, 153, 153);
+    --web-design: rgb(146, 124, 153);
+    --icon-design: rgb(141, 158, 141);
+    --template-bg: rgb(110, 110, 100);
+}
+
+header{
+    background-color: var(--header-background);
+}
+header h1{
+    font-size: 3.5rem;
+}
+/* header secition end */
+
+/* about section start */
+.about .lead {
+    font-weight: 400;
+    color: var(--text-color);
+}
+.about h1{
+    font-size: 3rem;
+    color: var(--text-color);
+}
+/* ** about section end* */
+
+/* my work section start */
+.my-work {
+    background-color: var(--header-background);
+}
+.my-work .nav .nav-link:focus {
+    border-bottom: 1px solid var(--all-works-bg);
+}
+.my-work h1{
+    font-size: 3rem;
+}
+.my-work .img {
+    width: 100%;
+    height: 250px;
+    background-color: var(--all-works-bg);
+}
+.my-work .img1{
+    width: 100%;
+    height: 250px;
+    background-color: var(--landing-page-bg);
+}
+.my-work .img2{
+    width: 100%;
+    height: 250px;
+    background-color: var(--web-design);
+}
+.my-work .img3 {
+    width: 100%;
+    height: 250px;
+    background-color: var(--icon-design);
+}
+.my-work .img4 {
+    width: 100%;
+    height: 250px;
+    background-color: var(--template-bg);
+}
+.my-work .btn {
+    padding: .5rem 1rem;
+    background-color: var(--all-works-bg);
+    border-color: var(--all-works-bg);
+}
+.my-work .btn:hover, .my-work .btn:focus {
+    background-color: transparent;
+}
+/* * end my-work section */
+
+/*** photography section start*** */
+.photography .img{
+    width: 95%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.photography .btn {
+    padding: .5rem 1rem;
+    background-color: var(--all-works-bg);
+    border-color: var(--all-works-bg);
+}
+.photography .btn:hover, .photography .btn:focus {
+    background-color: transparent;
+    color: var(--all-works-bg);
+}
+/*** photography section end*** */
+
+/* contact section start */
+.contact {
+    background-color: var(--header-background);
+}
+.contact .btn{
+    padding: .5rem 2rem;
+    background-color: var(--all-works-bg);
+    border-color: var(--all-works-bg);
+}
+.contact .btn:hover, .contact .btn:focus {
+    background-color: transparent;
+    color: var(--all-works-bg);
+}
+/* contact section end */
+
+/* footer */
+footer .icons span {
+    color: #6C757D;
+}
+footer .icons span:hover, footer .icons span:focus {
+    color: var(--all-works-bg);
+}
