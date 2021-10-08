@@ -7,7 +7,6 @@
     --icon-design: rgb(141, 158, 141);
     --template-bg: rgb(110, 110, 100);
 }
-
 header{
     background-color: var(--header-background);
 }
